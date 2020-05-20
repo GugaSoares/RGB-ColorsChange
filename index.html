@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalho01-RGB-Colors</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <h1>RGB Colors change</h1>
+  
+  <div class="colors-sliders">
+
+   <div class="red-containerColor">
+     <h3>(R) Vermelho</h3>
+     <input type="range" id="red-slider" value="0" min="0" max="255">
+     <h4 id="redValue">0</h4>
+   </div>
+   <div class="green-containerColor">
+     <h3>(G) Verde</h3>
+     <input type="range" id="green-slider" value="0" min="0" max="255">
+     <h4 id="greenValue">0</h4>
+   </div>
+   <div class="blue-containerColor">
+     <h3>(B) Azul</h3>
+     <input type="range" id="blue-slider" value="0" min="0" max="255">
+     <h4 id="blueValue">0</h4>
+   </div>
+  </div>
+  <div class="valueContainer">
+   <div id="color-square"></div>
+    <div id="rgb-value"></div>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+</html>
